@@ -8,9 +8,8 @@ public class MagicNumbers {
 
         for (int i=Integer.parseInt(input[0]); i<=Integer.parseInt(input[1]); i++) {
             int[] digitArray = getDigitArray(i);
-            if (digitArray.length == 0) {
+            if (digitArray.length == 0)
                 System.out.println(-1);
-            }
             if (doesNotRepeat(digitArray) && rotates(digitArray))
                 System.out.println(i);
         }

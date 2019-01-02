@@ -29,5 +29,5 @@ Your program will run against the following text. You may hardcode it into your 
 - Input: Your program should read lines of text from standard input. Each line contains a number followed by a string, separated by a comma. The number is the n-gram length. The string is the text from the user. You will be predicting the text following this string. 
 - Output: For each line of input print a single line to standard output which is the predictions for what the user is going to type next. 
 
-- Test Input 2,the 
-- Expected Output lamb,0.375;teacher,0.250;children,0.125;eager,0.125;rule,0.125
+- Test Input: 2,the 
+- Expected Output: lamb,0.375;teacher,0.250;children,0.125;eager,0.125;rule,0.125
